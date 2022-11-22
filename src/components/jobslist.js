@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {FormattedMessage} from 'react-intl';
 import Job from "./job";
 
 const JobsList = () => {
@@ -35,7 +36,9 @@ const JobsList = () => {
         <thead className="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Position</th>
+            <th scope="col">
+              <FormattedMessage id="Position" />
+            </th>
             <th scope="col">Company</th>
             <th scope="col">Salary</th>
             <th scope="col">City</th>
