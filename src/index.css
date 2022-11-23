@@ -1,0 +1,15 @@
+.table-header-light {
+  background: #f3efef81 !important;
+}
+
+.table-header-light th {
+  color: rgb(0, 0, 0) !important
+}
+
+.table-header-dark {
+  background: #000000bd !important;
+}
+
+.table-header-dark th {
+  color: rgb(255, 255, 255) !important
+}
